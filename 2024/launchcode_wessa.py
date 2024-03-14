@@ -116,8 +116,8 @@ while True:
         with open("/sd/measurements.txt", "a") as file:
             file.write(measurements)
     
-    with open("/measurements.txt", "a") as f:
-        f.write(str(all_values_bulb) + '\n')
+    #with open("/measurements.txt", "a") as f:
+    #    f.write(str(all_values_bulb) + '\n')
         
     end_loop = time.monotonic()
     delta_time = end_loop-begin_loop
